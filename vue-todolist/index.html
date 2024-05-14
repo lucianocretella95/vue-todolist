@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>To do list</title>
   </head>
@@ -10,9 +17,12 @@
     <div id="app">
       <ul class="ulist">
         <h1>Lista cose da fare</h1>
-        <li class="todo" v-for="element in list">{{element}}</li>
+        <li class="todo" v-for="element in list">
+          {{element}} <i class="fa-solid fa-x"></i>
+        </li>
+        <li>{{newLi}}</li>
         <input v-model="message" />
-        <button @click="addlist"> Aggiungi alla Lista</button>
+        <button @click="addlist">Aggiungi alla Lista</button>
       </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

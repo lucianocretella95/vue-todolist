@@ -14,11 +14,13 @@ createApp({
         "acquistare cellulare nuovo",
       ],
       message: "",
+      newLi: "",
     };
   },
   methods: {
     addlist: function () {
       console.log(this.message);
+      return newLi;
     },
   },
 }).mount("#app");
