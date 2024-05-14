@@ -13,6 +13,12 @@ createApp({
         "controllare email",
         "acquistare cellulare nuovo",
       ],
+      message: "",
     };
+  },
+  methods: {
+    addlist: function () {
+      console.log(message);
+    },
   },
 }).mount("#app");

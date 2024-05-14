@@ -11,6 +11,8 @@
       <ul class="ulist">
         <h1>Lista cose da fare</h1>
         <li class="todo" v-for="element in list">{{element}}</li>
+        <input v-model="message" />
+        <button @click="addlist"> Aggiungi alla Lista</button>
       </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
