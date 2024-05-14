@@ -8,7 +8,10 @@
   </head>
   <body>
     <div id="app">
-
+      <ul class="ulist">
+        <h1>Lista cose da fare</h1>
+        <li class="todo" v-for="element in list">{{element}}</li>
+      </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./js/scrpt.js"></script>

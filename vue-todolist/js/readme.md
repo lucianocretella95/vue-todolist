@@ -1,7 +1,7 @@
 CONSEGNA
 Creare una mini applicazione Vue che ci permetta di visualizzare una semplice ToDo List.
 
-MILESTONE 0
+MILESTONE 0 V
 Create una lista di cose da fare (array di stringhe) e stampatela in pagina, creando un elemento HTML (es. <li>) per ogni elemento dell'array.
 
 MILESTONE 1
