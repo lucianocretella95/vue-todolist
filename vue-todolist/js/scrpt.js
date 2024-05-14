@@ -18,7 +18,7 @@ createApp({
   },
   methods: {
     addlist: function () {
-      console.log(message);
+      console.log(this.message);
     },
   },
 }).mount("#app");
