@@ -19,3 +19,9 @@ body {
   color: white;
   background-color: red;
 }
+
+.btnadd{
+  background-color: steelblue;
+  color: aliceblue;
+  padding: 0.5rem;
+}
